@@ -70,7 +70,7 @@ int main()
    {
        int userinput=0;
        printf("username and password matches");
-       printf("\n1.Account create,\n2.Account deposit,\n3.Account withdrawl");
+       printf("\n1.Account create,\n2.Account deposit");
        
        scanf("%d",&userinput);
         switch (userinput) {
@@ -167,8 +167,9 @@ int main()
         }
          fclose(filePointer1) ;
         break;
-    case 3:
-        printf("/nAccount withdrawl");
+    //case 3:
+        //printf("/nAccount withdrawl");
+
         break;
     default:
         printf("/nChoice other than 1, 2 and 3");
